@@ -1,12 +1,7 @@
-import { createStore } from 'vuex'
-
+import { createStore } from "vuex";
+import control from "../modules/controlReptiles/store";
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
-  }
-})
+    control,
+  },
+});
